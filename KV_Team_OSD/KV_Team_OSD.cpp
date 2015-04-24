@@ -257,7 +257,7 @@ const char screen_item_24[] PROGMEM = "AMPERAGE";
 const char screen_item_25[] PROGMEM = "MA/H CONSUM";
 const char screen_item_26[] PROGMEM = "CALLSIGN";
 
-PROGMEM const char *item_table[] =
+PROGMEM const char * const item_table[] =
 {
 	screen_item_00,
 	screen_item_01,
